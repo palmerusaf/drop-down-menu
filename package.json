@@ -1,0 +1,20 @@
+{
+  "name": "drop-down-menu",
+  "version": "1.0.0",
+  "description": "## Description * This is a simple practice project that makes a generic drop down menu using standard JS. ## Motivations * Practice a common JS technique using standard JS.  * Learn how to publish a package to NPM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palmerusaf/drop-down-menu.git"
+  },
+  "keywords": [],
+  "author": "branden palmer <brandenpalmer08@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palmerusaf/drop-down-menu/issues"
+  },
+  "homepage": "https://github.com/palmerusaf/drop-down-menu#readme"
+}
