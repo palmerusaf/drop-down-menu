@@ -1,8 +1,13 @@
 const makeDropDownMenuFromMainItemAndSubItems = (mainItem, subItems) => {
   hideAllSubItems();
+  unHideAllSubItems();
 
   function hideAllSubItems() {
     subItems.forEach((item) => (item.style.display = "none"));
+  }
+
+  function unHideAllSubItems() {
+    subItems.forEach((item) => (item.style.display = "list-item"));
   }
 };
 
