@@ -1,6 +1,8 @@
 const makeDropDownMenuFromMainItemAndSubItems = (mainItem, subItems) => {
   hideAllSubItems();
-  unHideAllSubItems();
+  mainItem.addEventListener("click", unHideAllSubItems);
+  mainItem.addEventListener("mouseenter", unHideAllSubItems);
+  mainItem.addEventListener("mouseleave", hideAllSubItems);
 
   function hideAllSubItems() {
     subItems.forEach((item) => (item.style.display = "none"));
