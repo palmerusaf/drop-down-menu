@@ -1,9 +1,6 @@
 const makeDropDownMenu = (mainItem, subItems) => {
   if (!mainItem || !subItems)
-    return console.error(
-      "Parameters required for ",
-      makeDropDownMenu
-    );
+    return console.error("Parameters required for ", makeDropDownMenu);
   hideAllSubItems();
   mainItem.addEventListener("click", toggleHideSubItems);
 
@@ -20,6 +17,6 @@ const makeDropDownMenu = (mainItem, subItems) => {
   }
 
   function areSubItemsHidden() {
-    return subItems.every((item) => item.style.display === "none");
+    return subItems.some((item) => item.style.display === "none");
   }
 };
