@@ -1,5 +1,5 @@
 {
-  "name": "drop-down-menu",
+  "name": "make-drop-down-menu",
   "version": "1.0.0",
   "description": "## Description * This is a simple practice project that makes a generic drop down menu using standard JS. ## Motivations * Practice a common JS technique using standard JS.  * Learn how to publish a package to NPM.",
   "main": "index.js",

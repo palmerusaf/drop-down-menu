@@ -1,8 +1,8 @@
-const makeDropDownMenuFromMainItemAndSubItems = (mainItem, subItems) => {
+const makeDropDownMenu = (mainItem, subItems) => {
   if (!mainItem || !subItems)
     return console.error(
       "Parameters required for ",
-      makeDropDownMenuFromMainItemAndSubItems
+      makeDropDownMenu
     );
   hideAllSubItems();
   mainItem.addEventListener("click", toggleHideSubItems);
